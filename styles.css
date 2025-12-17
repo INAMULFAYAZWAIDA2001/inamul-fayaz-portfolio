@@ -80,7 +80,7 @@ section {
 ======================= */
 .home {
     height: 100vh;
-    background: url(Images/bg.png) no-repeat center/cover;
+    background: url("images/bg.png") no-repeat;
     display: flex;
     align-items: center;
     padding-top: 70px;
@@ -531,4 +531,5 @@ section {
     .about-img:hover .about-card {
         transform: none;
     }
+
 }
